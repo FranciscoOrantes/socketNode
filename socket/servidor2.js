@@ -24,4 +24,4 @@ var ser = net.createServer(function(so){
     })
 })
 
-ser.listen(PORT, HOST)
+ser.listen(PORT)
