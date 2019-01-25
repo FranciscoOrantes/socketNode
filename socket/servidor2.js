@@ -8,7 +8,7 @@ const {StringDecoder} =  require('string_decoder')
 const decoder = new StringDecoder('utf8')
 
 var HOST = "https://servidor2up.herokuapp.com/"
-var PORT = 80
+var PORT = 3234
 
   server.listen(PORT, function(){
       console.log('servidor activo ' + HOST + ':' + PORT)
