@@ -21,7 +21,7 @@ const {StringDecoder} =  require('string_decoder')
 const decoder = new StringDecoder('utf8')
 
 var HOST = ipdinamica
-var PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 9000;
 
   server.listen(PORT, function(){
       console.log('servidor activo ' + HOST + ':' + PORT)
@@ -37,4 +37,6 @@ var ser = net.createServer(function(so){
     })
 })
 
-ser.listen(HOST, PORT)
+ser.listen(PORT, function() {
+  console.log('Listening on ' + PORT);
+});
