@@ -37,6 +37,6 @@ var ser = net.createServer(function(so){
     })
 })
 
-ser.listen(PORT, function() {
+server.listen(PORT, function() {
   console.log('Listening on ' + PORT);
 });

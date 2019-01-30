@@ -5,7 +5,7 @@
   "main": "servidor2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "app.js"
+    "start": "nodemon app.js"
   },
   "author": "Francisco Moises Orantes Trejo",
   "license": "MIT",
