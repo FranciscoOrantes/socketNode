@@ -4,7 +4,8 @@
   "description": "Version 2 del proyecto",
   "main": "servidor2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
   },
   "author": "Francisco Moises Orantes Trejo",
   "license": "MIT",
